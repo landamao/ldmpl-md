@@ -1,0 +1,26 @@
+{
+  "t2i_endpoint": {
+    "description": "已有的 t2i 服务地址（Playwright 截图服务）",
+    "type": "string",
+    "hint": "例如 http://127.0.0.1:8999",
+    "default": "http://127.0.0.1:8999"
+  },
+  "viewport_width": {
+    "description": "截图视口宽度（像素）",
+    "type": "int",
+    "hint": "文档类建议 900~1100",
+    "default": 960
+  },
+  "max_chars": {
+    "description": "单次允许渲染的 Markdown 最大字符数",
+    "type": "int",
+    "hint": "防止一次塞进超长文档把截图服务打满",
+    "default": 20000
+  },
+  "timeout": {
+    "description": "截图超时（秒）",
+    "type": "int",
+    "hint": "",
+    "default": 40
+  }
+}

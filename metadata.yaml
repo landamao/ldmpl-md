@@ -1,0 +1,6 @@
+name: md转图
+display_name: Markdown 转图片
+desc: 把 Markdown 文档渲染成图片发给当前聊天，支持 KaTeX 公式、表格和代码高亮。给 LLM 调用。
+version: v1.0.0
+author: 懒大猫
+repo: https://github.com/landamao/ldmpl-md
